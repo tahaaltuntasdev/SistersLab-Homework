@@ -8,7 +8,6 @@ fun main() {
     val scanner1 = Scanner(System.`in`)
     val age = scanner1.next()
 
-
     try {
         if (age.toInt() >= 18) {
             println("Oy Kullanabilirsiniz!")
