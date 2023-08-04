@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".hafta3.odev1.ShoppingListFragment">
+
+    <ImageView
+        android:id="@+id/domates_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/domates"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/domates_urun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Domates"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/domates_img"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/domates_aciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Açıklama: Domates"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/domates_img"
+        app:layout_constraintTop_toBottomOf="@id/domates_urun"/>
+
+    <Button
+        android:id="@+id/domates_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Satın Al"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/biber_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/biber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/domates_img"/>
+
+    <TextView
+        android:id="@+id/biber_urun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biber"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/biber_img"
+        app:layout_constraintTop_toBottomOf="@id/domates_img"/>
+
+    <TextView
+        android:id="@+id/biber_aciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Açıklama: Biber"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/biber_img"
+        app:layout_constraintTop_toBottomOf="@id/biber_urun"/>
+
+    <Button
+        android:id="@+id/biber_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Satın Al"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/domates_img"/>
+
+    <ImageView
+        android:id="@+id/salatalik_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/salatalik"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/biber_img"/>
+
+    <TextView
+        android:id="@+id/salatalik_urun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salatalık"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/salatalik_img"
+        app:layout_constraintTop_toBottomOf="@id/biber_img"/>
+
+    <TextView
+        android:id="@+id/salatalik_aciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="Açıklama: Salatalık"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@id/salatalik_img"
+        app:layout_constraintTop_toBottomOf="@id/salatalik_urun"/>
+
+    <Button
+        android:id="@+id/salatalik_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Satın Al"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/biber_img"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
